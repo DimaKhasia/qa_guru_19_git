@@ -1,8 +1,13 @@
 package ru.dikhasiya;
 
 public class Main {
-    private static string msg = "Hello DIMA!!!";
+    private static String msg = "Hello DIMA!!!";
     public static void main(String[] args) {
-        System.out.println(msg);
+        System.out.println(getMassage());
+    }
+
+    private static String getMassage() {
+
+        return msg;
     }
 }
